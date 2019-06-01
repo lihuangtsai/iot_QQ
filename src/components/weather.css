@@ -1,0 +1,93 @@
+.device img {
+    width: 10rem;
+    height: 10rem;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.device {
+    flex: 50%;
+
+}
+
+
+.device p {
+    color: white;
+    text-align: center;
+}
+
+.devices{
+    display: flex;
+    width: 100%;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+
+
+.weather-bg {
+    height: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url('images/bg.jpeg');
+}
+
+.weather-bg .mask {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 0.6s;
+    padding-top: 4rem;
+}
+
+.weather-bg .mask.masking {
+    background-color: #000;
+}
+/* 
+.weather-bg.thunderstorm {
+    background-image: url('images/w-thunderstorm-bg.jpg');
+}
+
+.weather-bg.drizzle {
+    background-image: url('images/w-drizzle-bg.jpg');
+}
+
+.weather-bg.rain {
+    background-image: url('images/w-rain-bg.jpg');
+}
+
+.weather-bg.snow {
+    background-image: url('images/w-snow-bg.jpg');
+}
+
+.weather-bg.atmosphere {
+    background-image: url('images/w-atmosphere-bg.jpg');
+}
+
+.weather-bg.clear {
+    background-image: url('images/w-clear-bg.jpg');
+}
+
+.weather-bg.clouds {
+    background-image: url('images/w-clouds-bg.jpg');
+}
+
+.weather-bg.na {
+    background-image: url('images/w-na-bg.jpg');
+} */
